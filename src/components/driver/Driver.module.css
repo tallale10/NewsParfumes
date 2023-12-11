@@ -9,6 +9,7 @@
 
 .driver img {
     max-width: 512px;
+    border-radius: 1000px;
 }
 
 
@@ -17,18 +18,18 @@
 }
 
 .driver span {
-    color: #593cfb;
+    color: #fb623c;
 }
 
 .driver p {
     font-size: 1rem;
-    color: #333;
+    color: #555353;
     padding: 1.5rem 0;
 }
 
 .driver button {
-    background-color: #593cfb;
-    color: #fff;
+    background-color: #fb623c;
+    color: #fdfdfd;
     font-weight: 600;
     font-size: 1rem;
     padding: 12px 18px;
@@ -36,17 +37,17 @@
 }
 
 .driver button:hover {
-    background-color: #4733b7;
+    background-color: #e8ca21;
     transition: background-color 1s;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 100px) {
     .driver {
         grid-template-columns: 1fr;
     }
 
     .driver img {
-        max-width: 80%;
+        max-width: 70%;
         margin: auto;
     }
 

@@ -5,10 +5,10 @@ const Luxury = () => {
   return (
     <div className={styles.luxury}>
               <div className={styles.heading}>
-        <h1>Luxury Selection</h1>
+        <h1> Company Selection</h1>
         <div className={styles.text_bg}>
           <p>
-            <span>Select from the top luxury vehicles to roll in style</span>
+            <span>Selection from the best companies to shine with style</span>
           </p>
         </div>
 
@@ -16,27 +16,27 @@ const Luxury = () => {
 
       <div className={styles.container}>
         <div className={styles.card}>
-            <img src="https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+            <img src="https://i.pinimg.com/236x/79/61/b9/7961b943197bb38bb93be6a9df2db877.jpg" alt="" />
             <div className={styles.content}>
-                <h3>Rolls Royce</h3>
+                <h3>ZARA</h3>
             </div>
         </div>
         <div className={styles.card}>
-            <img src="https://images.pexels.com/photos/6894429/pexels-photo-6894429.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+            <img src="https://i.pinimg.com/236x/fe/61/46/fe614626168b7504bb8856c5e3a2c7e9.jpg" alt="" />
             <div className={styles.content}>
-                <h3>Maserati</h3>
+                <h3>BOSS</h3>
             </div>
         </div>
         <div className={styles.card}>
-            <img src="https://images.unsplash.com/photo-1563720360172-67b8f3dce741?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJhbmdlJTIwcm92ZXJ8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="" />
+            <img src="https://i.pinimg.com/236x/c0/d2/2d/c0d22d47bc26d9b4cecbd313704e26db.jpg" alt="" />
             <div className={styles.content}>
-                <h3>Range Rover</h3>
+                <h3>DIOR</h3>
             </div>
         </div>
         <div className={styles.card}>
-            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGx1eHVyeSUyMGNhcnN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="" />
+            <img src="https://i.pinimg.com/236x/17/eb/4d/17eb4d116b247eb30c0d388bdb5ec5d8.jpg" alt="" />
             <div className={styles.content}>
-                <h3>Porsche</h3>
+                <h3>GICCI</h3>
             </div>
         </div>
         </div>

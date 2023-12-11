@@ -16,8 +16,11 @@
   padding: 1rem;
 }
 
+.navbar img{
+  height: 70px;
+}
 .navbar a {
-  color: #333;
+  color: rgb(115, 51, 6);
   font-size: 0.8rem;
 }
 

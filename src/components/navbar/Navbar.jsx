@@ -1,6 +1,8 @@
 import { React, useState } from 'react';
 import styles from './Navbar.module.css';
-import Logo from '../../images/logo.png';
+import Logo from '../../images/logo.jpg';
+// import driver from '../driver/Driver';
+import {Link} from "react-router-dom" ;
 import {
   AiOutlineUser,
   AiOutlineSearch,
@@ -14,16 +16,18 @@ const Navbar = () => {
   return (
     <header className={styles.navbar}>
       <img src={Logo} alt='Logo' />
+      <h1 style={{color: 'rgb(115, 51, 6)'}}>Welcome <span style={{color: 'rgb(236, 122, 15)'}}>- to my page</span></h1>
+
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]} >
           <li>
-            <a href='/#'>Learn More</a>
+            <Link to='/Driver'>Home</Link>
           </li>
           <li>
-            <a href='/#'>Log in</a>
+          <Link to='/Find'>Find</Link>
           </li>
           <li>
-            <a href='/#'>Sign up</a>
+            <Link to='/Luxury'>Company</Link>
           </li>
           <li>
             <AiOutlineSearch size={25} style={{ marginTop: '6px' }} />
