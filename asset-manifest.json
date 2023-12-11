@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/NewsParfumes/static/css/main.0204d89f.css",
+    "main.js": "/NewsParfumes/static/js/main.b84d483f.js",
+    "static/media/drive.jpg": "/NewsParfumes/static/media/drive.f362ad18a631f1ddaf8e.jpg",
+    "static/media/logo.jpg": "/NewsParfumes/static/media/logo.3a558384c4b75338ebe9.jpg",
+    "static/media/inst.jpg": "/NewsParfumes/static/media/inst.87a4b166f78e9512d3e5.jpg",
+    "static/media/face.jpg": "/NewsParfumes/static/media/face.395b025eae2c63888d3b.jpg",
+    "static/media/whats.jpg": "/NewsParfumes/static/media/whats.31570945f076166e213f.jpg",
+    "index.html": "/NewsParfumes/index.html",
+    "main.0204d89f.css.map": "/NewsParfumes/static/css/main.0204d89f.css.map",
+    "main.b84d483f.js.map": "/NewsParfumes/static/js/main.b84d483f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0204d89f.css",
+    "static/js/main.b84d483f.js"
+  ]
+}
